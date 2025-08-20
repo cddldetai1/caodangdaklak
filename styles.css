@@ -233,13 +233,35 @@ html, body {
 
 /* ========== FOOTER ========== */
 .footer {
-  background: linear-gradient(90deg, #2979ff, #1a1f71);
+  background: linear-gradient(81deg, #111e35, #32367b);
   color: #fff;
-  text-align: center;
   padding: 20px;
   font-size: 14px;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.15);
 }
+
+/* Hàng 1 */
+.footer-row1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Hàng 2 chia 2 cột */
+.footer-row2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Đảm bảo hiển thị đẹp trên mobile */
+  text-align: left;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px; /* Khi màn hình nhỏ sẽ xuống dòng */
+  padding: 10px;
+}
+
+
 
 /* ========== RESPONSIVE ========== */
 @media screen and (max-width: 768px) {
