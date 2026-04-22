@@ -1,5 +1,5 @@
-const viLangFile = 'langsp.json';
-const enLangFile = 'langsp.json';
+const viLangFile = 'langthud.json';
+const enLangFile = 'langthud.json';
 
 let translations = {};
 let currentLang = 'vi';
@@ -43,6 +43,7 @@ function updateContent() {
   document.getElementById('tieudechinh').innerHTML = formatContent(translations.tieudechinh);
   document.getElementById('noidung1').innerHTML = formatContent(translations.noidung1);
   document.getElementById('noidung2').innerHTML = formatContent(translations.noidung2);
+  document.getElementById('noidung3').innerHTML = formatContent(translations.noidung3);
 
   document.getElementById("footer-row1").innerText = translations.footer.row1;
   document.getElementById("footer-supervisorTitle").innerText = translations.footer.supervisorTitle;
