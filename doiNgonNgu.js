@@ -36,6 +36,9 @@ function updateContent() {
   document.getElementById('tieudechinh').innerText = translations.tieudechinh;
   document.getElementById('noidung1').innerText = translations.noidung1;
   document.getElementById('noidung2').innerText = translations.noidung2;
+  document.getElementById('noidung2v1').innerText = translations.noidung2v1;
+  document.getElementById('noidung2v2').innerText = translations.noidung2v2;
+  document.getElementById('noidung2v3').innerText = translations.noidung2v3;
   document.getElementById('noidung3').innerText = translations.noidung3;
   document.getElementById('noidung4').innerText = translations.noidung4;
   document.getElementById('noidung5').innerText = translations.noidung5;
@@ -50,6 +53,10 @@ function updateContent() {
   document.getElementById('noidung14').innerText = translations.noidung14;
   document.getElementById('noidung15').innerText = translations.noidung15;
   document.getElementById('noidung16').innerText = translations.noidung16;
+  document.getElementById('noidung17').innerText = translations.noidung17;
+  document.getElementById('noidung18').innerText = translations.noidung18;
+  document.getElementById('noidung19').innerText = translations.noidung19;
+  document.getElementById('noidung20').innerText = translations.noidung20;
   document.getElementById("footer-row1").innerText = translations.footer.row1;
   document.getElementById("footer-supervisorTitle").innerText = translations.footer.supervisorTitle;
   document.getElementById("footer-supervisorName").innerText = translations.footer.supervisorName;
@@ -61,6 +68,8 @@ function updateContent() {
   document.getElementById('tieude1').innerText = translations.tieude1;
   document.getElementById('tieude2').innerText = translations.tieude2;
   document.getElementById('tieude3').innerText = translations.tieude3;
+  document.getElementById('tieude4').innerText = translations.tieude4;
+  document.getElementById('tieude5').innerText = translations.tieude5;
 
 
 }
